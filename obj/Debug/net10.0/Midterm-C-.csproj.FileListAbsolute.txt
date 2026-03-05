@@ -1,0 +1,15 @@
+/Users/tommycurtis/Midterm-C-/bin/Debug/net10.0/Midterm-C-
+/Users/tommycurtis/Midterm-C-/bin/Debug/net10.0/Midterm-C-.deps.json
+/Users/tommycurtis/Midterm-C-/bin/Debug/net10.0/Midterm-C-.runtimeconfig.json
+/Users/tommycurtis/Midterm-C-/bin/Debug/net10.0/Midterm-C-.dll
+/Users/tommycurtis/Midterm-C-/bin/Debug/net10.0/Midterm-C-.pdb
+/Users/tommycurtis/Midterm-C-/obj/Debug/net10.0/Midterm-C-.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tommycurtis/Midterm-C-/obj/Debug/net10.0/Midterm-C-.AssemblyInfoInputs.cache
+/Users/tommycurtis/Midterm-C-/obj/Debug/net10.0/Midterm-C-.AssemblyInfo.cs
+/Users/tommycurtis/Midterm-C-/obj/Debug/net10.0/Midterm-C-.csproj.CoreCompileInputs.cache
+/Users/tommycurtis/Midterm-C-/obj/Debug/net10.0/Midterm-C-.sourcelink.json
+/Users/tommycurtis/Midterm-C-/obj/Debug/net10.0/Midterm-C-.dll
+/Users/tommycurtis/Midterm-C-/obj/Debug/net10.0/refint/Midterm-C-.dll
+/Users/tommycurtis/Midterm-C-/obj/Debug/net10.0/Midterm-C-.pdb
+/Users/tommycurtis/Midterm-C-/obj/Debug/net10.0/Midterm-C-.genruntimeconfig.cache
+/Users/tommycurtis/Midterm-C-/obj/Debug/net10.0/ref/Midterm-C-.dll
