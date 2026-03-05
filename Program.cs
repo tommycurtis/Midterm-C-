@@ -4,17 +4,18 @@ using System.Collections.Generic;
 namespace WorkoutLogger
 {
     // Pubic Class workout entry
+    // Tommy, Azariah, Soheil, Olivia
     public class WorkoutEntry
     {
         public string ExerciseName { get; set; }
         public int Sets { get; set; }
         public int Reps { get; set; }
-        public double Weight { get; set; }   // in lbs or kg it should do both
+        public double Weight { get; set; }   // in lbs or kgs, this will help you put this in your weights
     }
 
     class Program
     {
-        static List<WorkoutEntry> workoutLog = new List<WorkoutEntry>();  // simple memory 
+        static List<WorkoutEntry> workoutLog = new List<WorkoutEntry>();  // this is just a simple memory
 
         static void Main(string[] args)
         {
@@ -23,7 +24,7 @@ namespace WorkoutLogger
             bool keepRunning = true;
             while (keepRunning)
             {
-                Console.Clear();  // clean screen each time
+                Console.Clear();  // This will clean the screen and make it easy to understand how to put the weights in
                 Console.WriteLine("=== Workout Logger Menu ===");
                 Console.WriteLine("1. Log a new exercise");
                 Console.WriteLine("2. View all logged exercises");
@@ -67,7 +68,7 @@ namespace WorkoutLogger
             }
         }
 
-        // Add one excercise as a time
+        // Add one excercise as a time it will ask for it 
         static void LogNewExercise()
         {
             Console.Write("\nEnter exercise name (like Bench Press): ");
@@ -94,7 +95,7 @@ namespace WorkoutLogger
                 return;
             }
 
-            // Create the entry and add it
+            // Create the entry and add it to the workout entry
             WorkoutEntry newEntry = new WorkoutEntry
             {
                 ExerciseName = name,
@@ -107,7 +108,7 @@ namespace WorkoutLogger
             Console.WriteLine($"\nLogged: {sets} sets of {reps} reps @ {weight} for {name}");
         }
 
-        // Show everything that's been logged
+        // this shows everything that is logged in the Workout Logger
         static void ViewLoggedExercises()
         {
             if (workoutLog.Count == 0)
@@ -126,7 +127,7 @@ namespace WorkoutLogger
             }
         }
 
-        // Calculate and show total volume
+        // this caulculates everything between volume and sets and reps
         static void ShowTotalVolume()
         {
             if (workoutLog.Count == 0)
@@ -139,7 +140,7 @@ namespace WorkoutLogger
 
             foreach (WorkoutEntry e in workoutLog)
             {
-                totalVolume += e.Sets * e.Reps * e.Weight;   // standard volume formula
+                totalVolume += e.Sets * e.Reps * e.Weight;   // standard volume formula for the program
             }
 
             Console.WriteLine($"\nTotal workout volume: {totalVolume} (lbs or kg lifted)");
